@@ -4,14 +4,14 @@ import { Logo } from "../../images";
 
 const Footer = () => {
   return (
-    <section class="footer">
-      <div class="footer__main">
-        <div class="footer_left">
+    <section className="footer">
+      <div className="footer__main">
+        <div className="footer_left">
           <img src={Logo} alt="" />
           <h3>LOSANGELES MOUNTAINS</h3>
         </div>
 
-        <div class="footer_right">
+        <div className="footer_right">
           <p>COPYRIGHT 2023. ALL RIGHTS RESERVED.</p>
         </div>
       </div>

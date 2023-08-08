@@ -4,8 +4,8 @@ import { Header } from '../../components'
 
 const HeroSection = () => {
   return (
-    <section class="landingSection">
-    <div class="landing_main">
+    <section className="landingSection">
+    <div className="landing_main">
      <Header/>
     </div>
   </section>

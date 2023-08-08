@@ -5,12 +5,12 @@ import { Slider } from '../../components'
 const HistorySection = () => {
   return (
     <section id="history">
-        <div class="historyContent">
-          <div class="history_title">
+        <div className="historyContent">
+          <div className="history_title">
             <h1>1.</h1>
             <h3>HISTORY</h3>
           </div>
-          <div class="history_desc">
+          <div className="history_desc">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in
               ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus
@@ -22,7 +22,7 @@ const HistorySection = () => {
           </div>
         </div>
 
-        <div class="carousel_wrapper">
+        <div className="carousel_wrapper">
          <Slider />
         </div>
       </section>

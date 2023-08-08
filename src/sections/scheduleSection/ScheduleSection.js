@@ -3,7 +3,7 @@ import "./schedulesection.css";
 import { ScheduleCard, ScheduleCardTwo } from "../../components";
 
 const ScheduleSection = () => {
-  const [showScheduleOne, setShowScheduleOne] = useState(false);
+  const [showScheduleOne, setShowScheduleOne] = useState(true);
   const [showScheduleTwo, setShowScheduleTwo] = useState(false);
   return (
     <section id="schedule">
