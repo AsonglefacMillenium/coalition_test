@@ -34,7 +34,7 @@
   color: #63769d;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 540px) {
   .footer {
     height: fit-content;
   }

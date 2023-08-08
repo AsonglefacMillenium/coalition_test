@@ -52,7 +52,7 @@
   color: #414f6b;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 540px) {
   .header {
     width: 90%;
   }

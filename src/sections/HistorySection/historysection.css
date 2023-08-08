@@ -54,7 +54,7 @@
   background-color: #000000;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 540px) {
   .history_des {
     width: 100%;
   }
