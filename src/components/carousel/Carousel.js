@@ -27,7 +27,7 @@ const Slider = () => {
   return (
     <div className="slider">
       <Carousel
-      className="slider_wrapper"
+        className="slider_wrapper"
         swipeable={false}
         draggable={false}
         showDots={true}
@@ -44,10 +44,18 @@ const Slider = () => {
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-20-px"
       >
-        <div><img src={SectionOneImage} alt="" /></div>
-        <div><img src={SectionTwoImage} alt="" /></div>
-        <div><img src={SectionOneImage} alt="" /></div>
-        <div><img src={SectionTwoImage} alt="" /></div>
+        <div>
+          <img src={SectionOneImage} alt="" />
+        </div>
+        <div>
+          <img src={SectionTwoImage} alt="" />
+        </div>
+        <div>
+          <img src={SectionOneImage} alt="" />
+        </div>
+        <div>
+          <img src={SectionTwoImage} alt="" />
+        </div>
       </Carousel>
       ;
     </div>

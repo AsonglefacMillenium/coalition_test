@@ -1,61 +1,61 @@
 #history {
-    height: fit-content;
+  height: fit-content;
+  width: 100%;
+  background-image: url("../../images/image3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.historyContent {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.history_title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.history_title h1 {
+  opacity: 0.5;
+  font-size: 136px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  color: #414f6b;
+}
+
+.history_title h3 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  color: #414f6b;
+  margin-left: -30px;
+}
+
+.history_desc {
+  font-size: 16px;
+  font-weight: undefined;
+  font-style: normal;
+  text-align: left;
+  color: #000000;
+  margin-top: -150px;
+  padding-left: 40px;
+}
+
+.carousel_wrapper {
+  height: 400px;
+  background-color: #000000;
+}
+
+@media only screen and (max-width: 500px) {
+  .history_des {
     width: 100%;
-    background-image: url("../../images/image3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
   }
-  
-  .historyContent {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: 0 auto;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  
-  .history_title {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0;
-  }
-  
-  .history_title h1 {
-    opacity: 0.5;
-    font-size: 136px;
-    font-weight: 700;
-    font-style: normal;
-    text-align: left;
-    color: #414f6b;
-  }
-  
-  .history_title h3 {
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    text-align: left;
-    color: #414f6b;
-    margin-left: -30px;
-  }
-  
-  .history_desc {
-    font-size: 16px;
-    font-weight: undefined;
-    font-style: normal;
-    text-align: left;
-    color: #000000;
-    margin-top: -150px;
-    padding-left: 40px;
-  }
-
-  .carousel_wrapper{
-    height: 400px;
-    background-color: #000000;
-  }
-
-  @media only screen and (max-width: 500px){
-    .history_des{
-        width: 100%;
-    }
-  }
+}

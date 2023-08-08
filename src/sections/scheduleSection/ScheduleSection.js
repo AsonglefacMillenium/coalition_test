@@ -27,12 +27,13 @@ const ScheduleSection = () => {
             className="tab"
             onClick={() => {
               setShowScheduleOne(true);
-              setShowScheduleTwo(false)
+              setShowScheduleTwo(false);
             }}
-
             style={{
-                backgroundColor: showScheduleOne? 'rgba(176, 180, 190, 1)' : 'transparent',
-                color: showScheduleOne? '#414f6b' : "#b0b4be"
+              backgroundColor: showScheduleOne
+                ? "rgba(176, 180, 190, 1)"
+                : "transparent",
+              color: showScheduleOne ? "#414f6b" : "#b0b4be",
             }}
           >
             MOUNTAIN 1
@@ -41,11 +42,13 @@ const ScheduleSection = () => {
             className="tab"
             onClick={() => {
               setShowScheduleTwo(true);
-              setShowScheduleOne(false)
+              setShowScheduleOne(false);
             }}
             style={{
-                backgroundColor: showScheduleTwo? 'rgba(176, 180, 190, 1)' : 'transparent',
-                color: showScheduleTwo? '#414f6b' : "#b0b4be"
+              backgroundColor: showScheduleTwo
+                ? "rgba(176, 180, 190, 1)"
+                : "transparent",
+              color: showScheduleTwo ? "#414f6b" : "#b0b4be",
             }}
           >
             MOUNTAIN 2
@@ -54,8 +57,11 @@ const ScheduleSection = () => {
 
         <div className="schedule_wrapper">
           <div className="schedule_cards">
-            {showScheduleOne? <ScheduleCard />  :
-            setShowScheduleTwo && <ScheduleCardTwo />}
+            {showScheduleOne ? (
+              <ScheduleCard />
+            ) : (
+              setShowScheduleTwo && <ScheduleCardTwo />
+            )}
           </div>
         </div>
       </div>

@@ -4,10 +4,4 @@ import ScheduleCardTwo from "./scheduleCard/ScheduleCardTwo";
 import Footer from "./footer/Footer";
 import Slider from "./carousel/Carousel";
 
-export{
-    Header,
-    ScheduleCard,
-    Footer,
-    ScheduleCardTwo,
-    Slider
-}
+export { Header, ScheduleCard, Footer, ScheduleCardTwo, Slider };

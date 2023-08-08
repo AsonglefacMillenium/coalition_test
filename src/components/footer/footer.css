@@ -29,16 +29,27 @@
 
 .footer_right {
   font-size: 12px;
-  font-weight: undefined;
   font-style: normal;
   text-align: left;
   color: #63769d;
 }
 
 @media only screen and (max-width: 500px) {
-    .footer{
-        flex-direction: column;
-        height: fit-content;
-        gap: 8px;
-    }
+  .footer {
+    height: fit-content;
+  }
+
+  .footer__main {
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .footer_left {
+    margin: auto;
+    padding-right: 100px;
+  }
 }

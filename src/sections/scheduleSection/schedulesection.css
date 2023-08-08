@@ -20,7 +20,6 @@
   display: flex;
   align-items: center;
   margin-bottom: 0;
-  
 }
 
 .schedule_header h1 {
@@ -92,35 +91,37 @@
   background-image: url("../../images/image2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  
+
   padding-top: 82px;
 }
 
-.schedule_cards{
-    width: 80%;
-    margin: auto;
+.schedule_cards {
+  width: 80%;
+  margin: auto;
 }
 
-
-
 @media only screen and (max-width: 500px) {
-    .schedule_cards{
-        width: 100vw;
-    }
+  .schedule_cards {
+    width: 100vw;
+  }
 
-    .schedultTitile{
-        height: fit-content;
-        width: 60%;
-        margin: auto;
-        gap: 0;
-    }
+  .schedultTitile {
+    height: fit-content;
+    width: 60%;
+    margin: auto;
+    gap: 0;
+  }
 
-    .schedule_desc{
-        width: 100%;
-        margin-top: -100px;
-    }
+  .schedule_desc {
+    width: 100%;
+    margin-top: -100px;
+  }
 
-    .schedule_header{
-        margin-bottom: 0;
-    }
+  .schedule_header {
+    margin-bottom: 0;
+  }
+
+  .schedule_tab {
+    padding-left: 10px;
+  }
 }
