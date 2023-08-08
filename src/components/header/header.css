@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 80px;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .logo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    width: 163px;
+  }
+  
+  .logo h3 {
+    font-size: 21px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    color: #4d4d4d;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .nav a {
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #fefeff;
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .header{
+        width: 90%;
+    }
+  }
